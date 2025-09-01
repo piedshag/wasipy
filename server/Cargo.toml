@@ -1,0 +1,11 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wasmtime = "36.0.0"
+tokio = { version = "1.36.0", features = ["full"] }
+anyhow = "1.0.98"
+wasmtime-wasi = "36.0.0"
+clap = { version = "4.5.46", features = ["derive"] }

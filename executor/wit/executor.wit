@@ -1,0 +1,5 @@
+package executor:host;
+
+world executor-world {
+    export run: func(code: string) -> result<string, string>;
+}
